@@ -1,0 +1,26 @@
+.searchBoxContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  gap: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+}
+
+.searchBoxContainer input {
+  border: 1.5px solid darkgrey;
+  border-radius: 2px;
+  padding: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: black;
+}
+
+.searchBoxContainer input:focus {
+  outline: none;
+}
