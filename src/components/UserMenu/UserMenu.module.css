@@ -1,0 +1,14 @@
+.userMenuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logoutBtn {
+  height: 40px;
+  border: 1px solid darkgray;
+}
